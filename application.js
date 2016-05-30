@@ -12,9 +12,11 @@ $(document).ready(function() {
         if (game%2 == 0) {
           $(e.target).css("background-color", player1.color);
           $(e.target).removeClass("plain");
+          $(e.target).addClass("player-1");
         } else {
           $(e.target).css("background-color", player2.color);
           $(e.target).removeClass("plain");
+          $(e.target).addClass("player-2");
         };
         game += 1
       };

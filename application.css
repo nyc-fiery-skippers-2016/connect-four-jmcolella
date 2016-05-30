@@ -1,5 +1,6 @@
 table {
   border: 2px solid blue;
+  background-color: blue;
 }
 
 tr {
@@ -12,4 +13,8 @@ td {
   border: 1px solid blue;
   width: 100px;
   height: 100px;
+  border-radius: 50%;
+  background-color: white;
 }
+
+$("tbody").children().each(function(row) { console.log(row.children()) } )
