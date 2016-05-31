@@ -16,5 +16,3 @@ td {
   border-radius: 50%;
   background-color: white;
 }
-
-$("tbody").children().each(function(row) { console.log(row.children()) } )
